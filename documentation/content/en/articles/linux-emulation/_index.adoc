@@ -1,4 +1,4 @@
----
+ ---
 title: Linux® emulation in FreeBSD
 authors:
   - author: Roman Divacky
@@ -1222,7 +1222,7 @@ struct futex {
 
   LIST_ENTRY(futex) f_list;
 
-  TAILQ_HEAD(lf_waiting_paroc, waiting_proc) f_waiting_proc;
+  TAILQ_HEAD(lf_waiting_proc, waiting_proc) f_waiting_proc;
 };
 ....
 
